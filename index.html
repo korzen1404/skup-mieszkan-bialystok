@@ -952,13 +952,23 @@
     <div class="footer-bottom">
       <div>© 2026 [Nazwa firmy]. Wszystkie prawa zastrzeżone.</div>
       <div class="legal">
-        <a href="#">Polityka prywatności</a>
-        <a href="#">Regulamin</a>
-        <a href="#">Polityka cookies</a>
+        <a href="/polityka-prywatnosci.html">Polityka prywatności</a>
+        <a href="/polityka-cookies.html">Polityka cookies</a>
+        <a href="#" onclick="if(window.cookieConsent){window.cookieConsent.reset();}return false;">Zmień ustawienia cookies</a>
       </div>
     </div>
   </div>
 </footer>
+
+<!-- ====================== Cookie consent banner ====================== -->
+<div class="cookie-banner" id="cookie-banner" role="dialog" aria-live="polite" aria-label="Zgoda na cookies">
+  <h4>Cookies i analityka</h4>
+  <p>Ta strona używa plików cookies. Pliki niezbędne do działania serwisu są zawsze aktywne. Z Twoją zgodą włączamy też anonimową analitykę Google Analytics 4, która pomaga nam ulepszać stronę. Szczegóły w <a href="/polityka-cookies.html">Polityce cookies</a>.</p>
+  <div class="cookie-banner-actions">
+    <button type="button" class="btn-cookie-reject" id="cookie-reject">Tylko niezbędne</button>
+    <button type="button" class="btn-cookie-accept" id="cookie-accept">Akceptuję wszystkie</button>
+  </div>
+</div>
 
 <!-- ====================== Sticky mobile bar ====================== -->
 <div class="sticky-mobile">
