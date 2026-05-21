@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /polityka-prywatnosci.html
+Disallow: /polityka-cookies.html
+
+Sitemap: https://skupmieszkanbialystok.pl/sitemap.xml
