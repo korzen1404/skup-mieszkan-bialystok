@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Skup mieszkań Białystok — wycena w 24 h, gotówka w 7 dni</title>
+<meta name="description" content="Skup mieszkań w Białymstoku. Konkretna wycena w 24 godziny, gotówka w dniu aktu notarialnego. Bez pośrednika, bez prowizji, bez kosztów po Twojej stronie.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+
+<template id="__bundler_thumbnail" data-bg-color="#F8F8FA">
+  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="800" fill="#F8F8FA"/>
+    <circle cx="600" cy="380" r="160" fill="#FFFFFF"/>
+    <text x="600" y="438" font-family="Georgia, serif" font-size="220" font-weight="500" text-anchor="middle" fill="#9C7E3C" font-style="italic">S</text>
+    <text x="600" y="640" font-family="Georgia, serif" font-size="56" font-weight="400" text-anchor="middle" fill="#1A1A22">Skup Mieszkań</text>
+    <text x="600" y="700" font-family="sans-serif" font-size="28" letter-spacing="6" text-anchor="middle" fill="#9C7E3C">BIAŁYSTOK</text>
+  </svg>
+</template>
+</head>
+<body>
+
+<div class="blob blob-1"></div>
+<div class="blob blob-2"></div>
+
+<!-- ====================== HEADER ====================== -->
+<header>
+  <div class="nav-inner">
+    <a href="#" class="logo">
+      <span class="logo-mark">S</span>
+      <span>SkupBiałystok</span>
+    </a>
+    <nav class="main-nav">
+      <a href="#jak">Jak to działa</a>
+      <a href="#dla-kogo">Dla kogo</a>
+      <a href="#transakcje">Transakcje</a>
+      <a href="#opinie">Opinie</a>
+      <a href="#faq">FAQ</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+    <div class="nav-right">
+      <a href="tel:+48513991210" class="nav-phone">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+        <span>513 991 210</span>
+      </a>
+      <a href="#formularz" class="btn-primary">Otrzymaj wycenę</a>
+    </div>
+    <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mobile-menu">
+    <a href="#jak">Jak to działa</a>
+    <a href="#dla-kogo">Dla kogo</a>
+    <a href="#transakcje">Transakcje</a>
+    <a href="#opinie">Opinie</a>
+    <a href="#faq">FAQ</a>
+    <a href="#kontakt">Kontakt</a>
+    <a href="tel:+48513991210">513 991 210</a>
+    <a href="#formularz" class="btn-primary">Otrzymaj wycenę</a>
+  </div>
+</header>
+
+<!-- ====================== HERO ====================== -->
+<section class="hero">
+  <div class="hero-left">
+    <div class="pill-ey h-1">
+      <span class="pulse-dot"></span>
+      Skup mieszkań · Białystok · Wycena w 24 godziny
+    </div>
+    <h1 class="hero-h1 h-2">Sprzedaj swoje mieszkanie w <em>Białymstoku</em> w <span class="num">7 dni</span></h1>
+    <p class="subhead h-3">Konkretna wycena po jednej wizycie. Gotówka na koncie w dniu podpisania aktu notarialnego. Bez pośrednika, bez prowizji, bez kosztów po Twojej stronie.</p>
+    <div class="hero-cta-row h-4">
+      <a href="#formularz" class="btn-primary-lg">Otrzymaj wycenę w 24 godziny</a>
+      <a href="tel:+48513991210" class="hero-phone-pill">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+        513 991 210
+      </a>
+    </div>
+  </div>
+
+  <div class="hero-right h-s">
+    <div class="stage-wrap">
+      <div class="float-mini float-mini-1">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+        Wycena 24h
+      </div>
+      <div class="float-mini float-mini-2">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="6" width="18" height="12" rx="2"></rect><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+        Gotówka
+      </div>
+      <div class="float-mini float-mini-3">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"></path><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+        0 zł kosztów
+      </div>
+      <div class="float-mini float-mini-4">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+        Pełna dyskrecja
+      </div>
+
+      <div class="map-disc">
+        <div class="map-disc-header">
+          <div class="map-disc-title">Białystok</div>
+          <div class="map-disc-badge">Nasze transakcje</div>
+        </div>
+        <div class="map-svg-wrap">
+          <img class="map-img" src="images/bialystok-map-neutral.png" alt="Mapa Białegostoku — dzielnice, w których kupujemy mieszkania" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== 3 · DLA KOGO ====================== -->
+<section id="dla-kogo" class="section deep">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Dla kogo</div>
+      <h2>Skupujemy mieszkania <em>od osób w różnych sytuacjach</em></h2>
+      <p>Najczęściej naszymi klientami są osoby, które potrzebują zamknąć sprawę mieszkania szybko i bez stresu wielu oględzin.</p>
+    </div>
+
+    <div class="cases-grid">
+      <div class="card lift case-card reveal">
+        <div class="icon-disc">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M8 3v18M16 3v18M3 8h5M3 16h5M16 8h5M16 16h5"></path></svg>
+        </div>
+        <h3>Po rozwodzie</h3>
+        <p>Chcesz szybko sprzedać i podzielić środki bez wielomiesięcznego procesu pośredniczego.</p>
+      </div>
+
+      <div class="card lift case-card reveal">
+        <div class="icon-disc">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="9" y1="13" x2="15" y2="13"></line><line x1="9" y1="17" x2="13" y2="17"></line></svg>
+        </div>
+        <h3>Mieszkanie po spadku</h3>
+        <p>Odziedziczone mieszkanie, w którym nie planujesz mieszkać ani remontować. Zajmiemy się całością — także przy nieuregulowanej sprawie spadkowej.</p>
+      </div>
+
+      <div class="card lift case-card reveal">
+        <div class="icon-disc">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 21h18M5 21V9l7-5 7 5v12M9 21v-6h6v6"></path></svg>
+        </div>
+        <h3>Z hipoteką lub komornikiem</h3>
+        <p>Pomagamy przy mieszkaniach obciążonych kredytem hipotecznym lub postępowaniem komorniczym. Współpracujemy bezpośrednio z bankiem lub komornikiem.</p>
+      </div>
+
+      <div class="card lift case-card reveal">
+        <div class="icon-disc">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="7" width="18" height="13" rx="2"></rect><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="3" y1="13" x2="21" y2="13"></line></svg>
+        </div>
+        <h3>Pilna przeprowadzka</h3>
+        <p>Wyjeżdżasz za granicę lub do rodziny i nie masz czasu na sześć miesięcy oględzin z pośrednikiem.</p>
+      </div>
+
+      <div class="card lift case-card reveal">
+        <div class="icon-disc">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14 2l7 7-9 9-7-7 2-2"></path><path d="M5 14l-3 3 3 3 3-3"></path><path d="M9 6l2-2"></path></svg>
+        </div>
+        <h3>Mieszkanie wymaga remontu</h3>
+        <p>Niski parter, wielka płyta, generalny remont — to nasza specjalizacja. Kupimy nawet, jeśli żaden zwykły nabywca nie był zainteresowany.</p>
+      </div>
+
+      <div class="card lift case-card reveal">
+        <div class="icon-disc">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+        </div>
+        <h3>Zmiana sytuacji życiowej</h3>
+        <p>Przeprowadzka do dzieci, dom opieki, zmiana metrażu — zajmiemy się wszystkimi formalnościami zamiast Ciebie.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== 4 · FORMULARZ ====================== -->
+<section id="formularz" class="section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Formularz wyceny</div>
+      <h2>Sprawdź wycenę <em>swojego mieszkania</em></h2>
+      <p>Wycena w 24 godziny od zgłoszenia. Bezpłatna i niezobowiązująca.</p>
+    </div>
+
+    <div class="form-wrap">
+      <div class="form-card reveal">
+        <form class="form-grid" onsubmit="event.preventDefault(); alert('Dziękujemy. Oddzwonimy w 24 h.');">
+          <div class="field">
+            <label for="f-name">Imię<span class="req">*</span></label>
+            <input id="f-name" type="text" placeholder="Jak się do Ciebie zwracać?" required>
+          </div>
+          <div class="field">
+            <label for="f-phone">Telefon<span class="req">*</span></label>
+            <input id="f-phone" type="tel" placeholder="+48 ___ ___ ___" required>
+          </div>
+          <div class="field full">
+            <label for="f-loc">Lokalizacja<span class="req">*</span></label>
+            <input id="f-loc" type="text" placeholder="dzielnica lub ulica w Białymstoku" required>
+          </div>
+          <div class="field">
+            <label for="f-type">Rodzaj nieruchomości<span class="req">*</span></label>
+            <select id="f-type" required>
+              <option>Mieszkanie</option>
+              <option>Dom</option>
+              <option>Działka</option>
+              <option>Lokal użytkowy</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="f-state">Stan nieruchomości<span class="req">*</span></label>
+            <select id="f-state" required>
+              <option>Do remontu generalnego</option>
+              <option>Wymaga odświeżenia</option>
+              <option>Dobry stan</option>
+              <option>Idealny / po remoncie</option>
+            </select>
+          </div>
+          <div class="field full">
+            <label for="f-area">Powierzchnia (m²)</label>
+            <input id="f-area" type="number" placeholder="opcjonalne — np. 48">
+          </div>
+          <div class="consent full">
+            <input id="f-rodo" type="checkbox" required>
+            <label for="f-rodo">Wyrażam zgodę na przetwarzanie moich danych osobowych zgodnie z polityką prywatności w celu przedstawienia wyceny.</label>
+          </div>
+          <button type="submit" class="btn-primary-lg full">Otrzymaj wycenę w 24 godziny</button>
+          <div class="form-foot full">Oddzwaniamy w 24 h od zgłoszenia, pon–sob 7:00–18:00.</div>
+        </form>
+      </div>
+
+      <div class="form-side reveal">
+        <h3>Albo zadzwoń bezpośrednio — załatwimy wszystko przez telefon.</h3>
+        <div class="benefit-list">
+          <div class="benefit-row">
+            <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
+            <p>Konkretna kwota po jednej wizycie — nie ogólnik, nie "od-do".</p>
+          </div>
+          <div class="benefit-row">
+            <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
+            <p>Gotówka przelewem w dniu podpisania aktu notarialnego.</p>
+          </div>
+          <div class="benefit-row">
+            <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
+            <p>Notariusz, taksy sądowe i podatki — po naszej stronie.</p>
+          </div>
+          <div class="benefit-row">
+            <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
+            <p>Bez ogłoszeń, bez obcych ludzi w mieszkaniu, pełna dyskrecja.</p>
+          </div>
+        </div>
+
+        <div class="phone-card">
+          <div class="icon-disc">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          </div>
+          <div>
+            <a href="tel:+48513991210" class="ph-num">513 991 210</a>
+            <div class="ph-meta">pon–sob 7:00–18:00</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== 5 · JAK TO DZIAŁA ====================== -->
+<section id="jak" class="section deep">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Jak to działa</div>
+      <h2>Cały proces w <em>5 krokach</em> — maksymalnie 7 dni</h2>
+      <p>Od pierwszego kontaktu do pieniędzy na Twoim koncie.</p>
+    </div>
+
+    <div class="process-track">
+      <div class="step reveal">
+        <div class="step-num">01</div>
+        <div>
+          <h3>Zostawiasz kontakt</h3>
+          <p>Wypełniasz krótki formularz lub dzwonisz na 513 991 210. Zajmuje to 2 minuty.</p>
+          <span class="tag-time" style="margin-top:10px;">2 minuty</span>
+        </div>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">02</div>
+        <div>
+          <h3>Oddzwaniamy w 24 h</h3>
+          <p>Zadajemy kilka pytań o mieszkanie i podajemy wstępną wycenę w widełkach. Bez nacisku.</p>
+          <span class="tag-time" style="margin-top:10px;">do 24 godzin</span>
+        </div>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">03</div>
+        <div>
+          <h3>Jedna wizyta, konkretna oferta</h3>
+          <p>Spotykamy się w Twoim mieszkaniu. Po 30–45 minutach oględzin podajemy jedną konkretną kwotę.</p>
+          <span class="tag-time" style="margin-top:10px;">do 48 godzin</span>
+        </div>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">04</div>
+        <div>
+          <h3>Umowa u notariusza</h3>
+          <p>Po akceptacji oferty podpisujemy umowę przedwstępną u notariusza w Białymstoku i ustalamy datę aktu.</p>
+          <span class="tag-time" style="margin-top:10px;">1–3 dni</span>
+        </div>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">05</div>
+        <div>
+          <h3>Pieniądze na koncie</h3>
+          <p>Akt notarialny i przelew na Twoje konto tego samego dnia. Bez czekania na kredyt nabywcy.</p>
+          <span class="tag-time" style="margin-top:10px;">do 7 dni</span>
+        </div>
+      </div>
+    </div>
+
+    <p class="process-note">Termin 7 dni dotyczy transakcji z kompletem dokumentów. Przy nieuregulowanej sprawie spadkowej lub obciążonej hipotece może być dłuższy o 5–14 dni — wszystko ustalamy podczas wstępnej rozmowy.</p>
+  </div>
+</section>
+
+<!-- ====================== 6 · DLACZEGO MY ====================== -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Dlaczego my</div>
+      <h2>Sprzedaż przez nas, <em>a nie u pośrednika</em></h2>
+      <p>Siedem najważniejszych różnic w jednej tabeli.</p>
+    </div>
+
+    <div class="compare reveal">
+      <div class="compare-row head">
+        <div>Co porównujemy</div>
+        <div>Pośrednik / ogłoszenia</div>
+        <div class="col-us-h">Skup mieszkań</div>
+      </div>
+      <div class="compare-row">
+        <div class="col-crit">Czas sprzedaży</div>
+        <div class="col-them">3–6 miesięcy</div>
+        <div class="col-us"><span class="check-ring"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>7 dni</div>
+      </div>
+      <div class="compare-row">
+        <div class="col-crit">Prowizja</div>
+        <div class="col-them">2–3% (10–15 tys. zł)</div>
+        <div class="col-us"><span class="check-ring"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>0 zł</div>
+      </div>
+      <div class="compare-row">
+        <div class="col-crit">Koszt notariusza</div>
+        <div class="col-them">Po stronie sprzedawcy</div>
+        <div class="col-us"><span class="check-ring"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>Po naszej stronie</div>
+      </div>
+      <div class="compare-row">
+        <div class="col-crit">Oględziny przez klientów</div>
+        <div class="col-them">10–30 wizyt obcych ludzi</div>
+        <div class="col-us"><span class="check-ring"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>Jedna wizyta</div>
+      </div>
+      <div class="compare-row">
+        <div class="col-crit">Płatność</div>
+        <div class="col-them">Zależna od kredytu nabywcy</div>
+        <div class="col-us"><span class="check-ring"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>Gotówka, pewna</div>
+      </div>
+      <div class="compare-row">
+        <div class="col-crit">Stan mieszkania</div>
+        <div class="col-them">Często musi być po remoncie</div>
+        <div class="col-us"><span class="check-ring"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>Każdy stan</div>
+      </div>
+      <div class="compare-row">
+        <div class="col-crit">Negocjacje</div>
+        <div class="col-them">Wielokrotne</div>
+        <div class="col-us"><span class="check-ring"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>Jedna konkretna oferta</div>
+      </div>
+    </div>
+
+    <p class="compare-foot reveal">Sprzedaż przez pośrednika może dać wyższą cenę końcową — ale tylko jeśli dysponujesz czasem 3–6 miesięcy, jesteś gotowy na dziesiątki oględzin i zaakceptujesz koszty 10–15 tysięcy złotych prowizji oraz notariusza co w efekcie może dać tą samą kwotę po odliczeniu wszystkich kosztów. Jeśli zależy Ci na szybkości i pewności, nasza propozycja będzie lepsza.</p>
+  </div>
+</section>
+
+<!-- ====================== 7 · SPECJALIZACJA REMONTU ====================== -->
+<section class="section deep">
+  <div class="wrap">
+    <div class="renovation-grid">
+      <div class="renovation-copy reveal">
+        <div class="eyebrow">Specjalizacja</div>
+        <h2 style="font-family:var(--fd);font-size:clamp(32px,3.4vw,46px);font-weight:300;line-height:1.1;letter-spacing:-0.03em;margin-bottom:24px;">Specjalizujemy się w mieszkaniach <em>do remontu</em></h2>
+        <p>Pośrednicy unikają mieszkań w gorszym stanie. Klienci szukający mieszkania na własne potrzeby też. Zostajesz z mieszkaniem, które trudno sprzedać normalną drogą — często miesiącami.</p>
+        <p>My kupujemy takie mieszkania, ponieważ remontujemy je we własnym zakresie po zakupie. Stan techniczny nie obniża szybkości transakcji — kupujemy w 7 dni niezależnie czy mieszkanie jest gotowe do zamieszkania, czy wymaga generalnego remontu.</p>
+        <a href="#formularz" class="btn-primary-lg">Masz mieszkanie do remontu? Umówmy oględziny</a>
+      </div>
+
+      <div class="before-after reveal">
+        <div class="ba-card">
+          <div class="ba-thumb">
+            <span class="ba-tag">Przed</span>
+            <span class="ph-label">Zdjęcie · Antoniuk · 38 m²</span>
+          </div>
+          <div class="ba-meta">
+            <div class="ba-loc">Antoniuk · wielka płyta</div>
+            <div class="ba-sub">38 m², parter, generalny remont</div>
+          </div>
+        </div>
+        <div class="ba-card">
+          <div class="ba-thumb after">
+            <span class="ba-tag">Po</span>
+            <span class="ph-label">Zdjęcie · po remoncie</span>
+          </div>
+          <div class="ba-meta">
+            <div class="ba-loc">Po naszym remoncie</div>
+            <div class="ba-sub">Pełna rewitalizacja, 8 tygodni</div>
+          </div>
+        </div>
+        <div class="ba-card">
+          <div class="ba-thumb">
+            <span class="ba-tag">Przed</span>
+            <span class="ph-label">Zdjęcie · Bojary · 52 m²</span>
+          </div>
+          <div class="ba-meta">
+            <div class="ba-loc">Bojary · kamienica</div>
+            <div class="ba-sub">52 m², II piętro, do odświeżenia</div>
+          </div>
+        </div>
+        <div class="ba-card">
+          <div class="ba-thumb after">
+            <span class="ba-tag">Po</span>
+            <span class="ph-label">Zdjęcie · po remoncie</span>
+          </div>
+          <div class="ba-meta">
+            <div class="ba-loc">Po naszym remoncie</div>
+            <div class="ba-sub">Nowe instalacje, łazienka, podłogi</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== 8 · OSTATNIE TRANSAKCJE ====================== -->
+<section id="transakcje" class="section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Transakcje</div>
+      <h2>Ostatnie transakcje <em>w Białymstoku</em></h2>
+      <p>Realne kwoty i czas realizacji z naszego portfela.</p>
+    </div>
+
+    <div class="deals-grid">
+      <div class="card lift deal-card reveal">
+        <div class="deal-meta">
+          <span class="deal-month">Marzec 2026</span>
+          <h3>Mieszkanie 42 m², Antoniuk</h3>
+          <p class="deal-desc">III piętro, wielka płyta, do remontu generalnego, sprawa spadkowa.</p>
+        </div>
+        <div class="deal-stats">
+          <div class="deal-amount">[kwota] zł</div>
+          <div class="deal-days">9 dni transakcji</div>
+        </div>
+      </div>
+
+      <div class="card lift deal-card reveal">
+        <div class="deal-meta">
+          <span class="deal-month">Luty 2026</span>
+          <h3>Mieszkanie 58 m², Centrum</h3>
+          <p class="deal-desc">II piętro, kamienica przedwojenna, wymaga odświeżenia, hipoteka.</p>
+        </div>
+        <div class="deal-stats">
+          <div class="deal-amount">[kwota] zł</div>
+          <div class="deal-days">12 dni transakcji</div>
+        </div>
+      </div>
+
+      <div class="card lift deal-card reveal">
+        <div class="deal-meta">
+          <span class="deal-month">Luty 2026</span>
+          <h3>Mieszkanie 36 m², Wygoda</h3>
+          <p class="deal-desc">Parter, blok z lat 80., dobry stan, pilna przeprowadzka.</p>
+        </div>
+        <div class="deal-stats">
+          <div class="deal-amount">[kwota] zł</div>
+          <div class="deal-days">6 dni transakcji</div>
+        </div>
+      </div>
+
+      <div class="card lift deal-card reveal">
+        <div class="deal-meta">
+          <span class="deal-month">Styczeń 2026</span>
+          <h3>Mieszkanie 64 m², Bacieczki</h3>
+          <p class="deal-desc">IV piętro, blok z lat 90., po lekkim remoncie, rozwód.</p>
+        </div>
+        <div class="deal-stats">
+          <div class="deal-amount">[kwota] zł</div>
+          <div class="deal-days">8 dni transakcji</div>
+        </div>
+      </div>
+    </div>
+
+    <p class="deals-note reveal">Wszystkie kwoty są realnymi sumami przekazanymi sprzedającym w dniu podpisania aktu notarialnego. Dane sprzedających zostały zanonimizowane na ich życzenie.</p>
+  </div>
+</section>
+
+<!-- ====================== 9 · OPINIE ====================== -->
+<section id="opinie" class="section deep">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Opinie klientów</div>
+      <h2>Co mówią ci, których mieszkania <em>kupiliśmy</em></h2>
+      <p>Opinie z ostatnich 12 miesięcy. Dane sprzedających zachowane w dyskrecji.</p>
+    </div>
+
+    <div class="reviews-grid">
+      <div class="card lift review-card reveal">
+        <div class="stars">
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"></polygon></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"></polygon></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"></polygon></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"></polygon></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"></polygon></svg>
+        </div>
+        <blockquote>Sprzedaliśmy mieszkanie w 9 dni od pierwszej rozmowy. Wszystkie papiery załatwił ich notariusz, nie musiałam niczego organizować. Polecam każdemu, kto chce zamknąć temat bez stresu.</blockquote>
+        <div class="review-attrib">
+          <div class="name">Anna K.</div>
+          <div class="meta">Antoniuk · sprawa spadkowa · Styczeń 2026</div>
+        </div>
+      </div>
+
+      <div class="card lift review-card reveal">
+        <div class="stars">
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"></polygon></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"></polygon></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"></polygon></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"></polygon></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"></polygon></svg>
+        </div>
+        <blockquote>Po rozwodzie nie miałem siły organizować oględzin i czekać miesiącami. Dostałem konkretną kwotę po jednej wizycie. Wszystko zamknięte w 8 dni — pieniądze podzielone, sprawa za nami.</blockquote>
+        <div class="review-attrib">
+          <div class="name">Marcin P.</div>
+          <div class="meta">Bojary · rozwód · Listopad 2025</div>
+        </div>
+      </div>
+
+      <div class="card lift review-card reveal">
+        <div class="stars">
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"></polygon></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"></polygon></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"></polygon></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"></polygon></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"></polygon></svg>
+        </div>
+        <blockquote>Miałam mieszkanie z hipoteką, którego pośrednicy nie chcieli brać. Tu spłacili kredyt bezpośrednio z bankiem, ja dostałam różnicę przelewem. Konkretna pomoc, nie ogólniki.</blockquote>
+        <div class="review-attrib">
+          <div class="name">Ewa S.</div>
+          <div class="meta">Centrum · hipoteka · Wrzesień 2025</div>
+        </div>
+      </div>
+
+      <div class="card lift review-card reveal">
+        <div class="stars">
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"></polygon></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"></polygon></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"></polygon></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"></polygon></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"></polygon></svg>
+        </div>
+        <blockquote>Mieszkanie po mamie do remontu, parter, wielka płyta. Pośrednicy zerwali oględziny po dwóch tygodniach. Tu kupili od ręki, w cenie którą wcześniej widziałam tylko na ofertach po remoncie.</blockquote>
+        <div class="review-attrib">
+          <div class="name">Krzysztof D.</div>
+          <div class="meta">Piasta · remont generalny · Lipiec 2025</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== 10 · GWARANCJE ====================== -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Gwarancje</div>
+      <h2>Pięć gwarancji, których <em>dotrzymujemy</em></h2>
+      <p>Bez ukrytych kosztów, bez nacisków, bez niespodzianek w dniu aktu notarialnego.</p>
+    </div>
+
+    <div class="guarantees-grid">
+      <div class="card lift guarantee-card reveal">
+        <div class="icon-disc">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+        </div>
+        <h3>Wycena bezpłatna</h3>
+        <p>Nie płacisz nic za rozmowę, oględziny ani analizę dokumentów.</p>
+      </div>
+
+      <div class="card lift guarantee-card reveal">
+        <div class="icon-disc">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 11V6a2 2 0 0 1 4 0v5"></path><path d="M9 11V8a2 2 0 0 0-4 0v6c0 3 2 5 5 5h2c3 0 5-2 5-5v-3a2 2 0 0 0-4 0"></path></svg>
+        </div>
+        <h3>Bez zobowiązania</h3>
+        <p>Po wycenie możesz się wycofać. Nie ścigamy klientów, nie wysyłamy przypomnień.</p>
+      </div>
+
+      <div class="card lift guarantee-card reveal">
+        <div class="icon-disc">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"></circle><line x1="5" y1="5" x2="19" y2="19"></line></svg>
+        </div>
+        <h3>Prowizja 0 zł</h3>
+        <p>Nie pobieramy prowizji od sprzedającego. U pośrednika to 10–15 tys. zł.</p>
+      </div>
+
+      <div class="card lift guarantee-card reveal">
+        <div class="icon-disc">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+        </div>
+        <h3>Bez kosztów</h3>
+        <p>Akt notarialny, taksa sądowa, podatki — wszystkie koszty po naszej stronie.</p>
+      </div>
+
+      <div class="card lift guarantee-card reveal">
+        <div class="icon-disc">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="11" width="18" height="11" rx="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+        </div>
+        <h3>Pełna dyskrecja</h3>
+        <p>Bez ogłoszeń, bez telefonów od nabywców. Tylko notariusz i bank wiedzą o transakcji.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== 11 · O FIRMIE ====================== -->
+<section class="section deep">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="about-photo reveal">
+        <span class="ph-label">Portret · założyciel firmy</span>
+      </div>
+
+      <div class="about-copy reveal">
+        <div class="eyebrow">O firmie</div>
+        <h2>Lokalna firma <em>z Białegostoku</em></h2>
+        <p>Nazywam się <strong>[Imię i nazwisko]</strong> i prowadzę skup mieszkań w Białymstoku od kilku lat. Działam lokalnie, w mieście, które znam od lat.</p>
+        <p>Wiem, które dzielnice są perspektywiczne, gdzie warto remontować, ile realnie kosztują mieszkania w poszczególnych blokach. Dla Ciebie oznacza to konkretną wycenę zamiast ogólników.</p>
+        <div class="signature">— Adam, założyciel</div>
+        <div class="about-meta">
+          <div class="about-meta-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            <span>513 991 210</span>
+          </div>
+          <div class="about-meta-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            <span>pon–sob, 7:00–18:00</span>
+          </div>
+          <div class="about-meta-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <span>ul. Kraszewskiego 30, Białystok</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== 12 · FAQ ====================== -->
+<section id="faq" class="section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">FAQ</div>
+      <h2>Najczęstsze pytania o skup mieszkań <em>w Białymstoku</em></h2>
+      <p>Jeśli nie znajdziesz odpowiedzi — zadzwoń na 513 991 210, odpowiem osobiście.</p>
+    </div>
+
+    <div class="faq-list">
+      <div class="faq-item reveal">
+        <button class="faq-q" aria-expanded="false">Skup mieszkań Białystok — czy wycena jest naprawdę bezpłatna?
+          <span class="plus"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span>
+        </button>
+        <div class="faq-a"><div class="faq-a-inner">Tak. Nie pobieramy żadnej opłaty za rozmowę telefoniczną, oględziny ani analizę dokumentów. Wycena jest całkowicie bezpłatna i niezobowiązująca — po jej otrzymaniu możesz zrezygnować bez konsekwencji.</div></div>
+      </div>
+
+      <div class="faq-item reveal">
+        <button class="faq-q" aria-expanded="false">Ile można dostać za mieszkanie w skupie nieruchomości?
+          <span class="plus"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span>
+        </button>
+        <div class="faq-a"><div class="faq-a-inner">Konkretną kwotę przedstawiamy po oględzinach. Wycena zależy od trzech czynników: lokalizacji (dzielnica, piętro, typ bloku/kamienicy), stanu technicznego (do remontu vs po remoncie) oraz pilności sprzedaży. Nie podajemy ogólnych procentów wartości rynkowej, bo takie ogólniki rzadko odpowiadają realnej sytuacji konkretnego mieszkania.</div></div>
+      </div>
+
+      <div class="faq-item reveal">
+        <button class="faq-q" aria-expanded="false">Sprzedaż mieszkania bez pośrednika — jak długo trwa cały proces?
+          <span class="plus"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span>
+        </button>
+        <div class="faq-a"><div class="faq-a-inner">Standardowo 7 dni od pierwszego kontaktu do pieniędzy na Twoim koncie. Wycena telefoniczna do 24 h, oględziny i konkretna oferta do 48 h, umowa przedwstępna i akt notarialny w kolejnych dniach. Przy nieuregulowanej sprawie spadkowej lub obciążonej hipotece termin może być dłuższy o 5–14 dni.</div></div>
+      </div>
+
+      <div class="faq-item reveal">
+        <button class="faq-q" aria-expanded="false">Skup mieszkań z hipoteką lub z komornikiem — czy to możliwe?
+          <span class="plus"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span>
+        </button>
+        <div class="faq-a"><div class="faq-a-inner">Tak. Współpracujemy z bankami przy spłacie hipoteki oraz z komornikami przy mieszkaniach objętych postępowaniem. W obu przypadkach kwota zadłużenia lub zajęcia zostaje uwzględniona w transakcji — często spłacamy ją bezpośrednio z naszej strony. Sprzedający otrzymuje różnicę między ofertą a zobowiązaniem.</div></div>
+      </div>
+
+      <div class="faq-item reveal">
+        <button class="faq-q" aria-expanded="false">Czy trzeba zrobić remont lub przygotowania przed sprzedażą?
+          <span class="plus"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span>
+        </button>
+        <div class="faq-a"><div class="faq-a-inner">Nie. Specjalizujemy się w mieszkaniach do remontu i kupujemy nieruchomości w każdym stanie — od mieszkań po generalnym remoncie po lokale do całkowitej rewitalizacji. Nie ma potrzeby sprzątania, malowania ani jakichkolwiek napraw przed oględzinami.</div></div>
+      </div>
+
+      <div class="faq-item reveal">
+        <button class="faq-q" aria-expanded="false">Skup mieszkań spadkowych — co z nieuregulowaną sprawą spadkową?
+          <span class="plus"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span>
+        </button>
+        <div class="faq-a"><div class="faq-a-inner">Możemy rozpocząć rozmowy i wstępne oględziny zanim postępowanie spadkowe się zakończy. Akt notarialny sprzedaży podpisujemy dopiero po prawomocnym stwierdzeniu nabycia spadku i wpisie spadkobierców do księgi wieczystej — to wymóg prawny, nie nasz. Pomagamy zorientować się w terminach i koniecznych krokach po stronie sądu.</div></div>
+      </div>
+
+      <div class="faq-item reveal">
+        <button class="faq-q" aria-expanded="false">Kto płaci notariusza i pozostałe koszty transakcji?
+          <span class="plus"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span>
+        </button>
+        <div class="faq-a"><div class="faq-a-inner">Wszystkie koszty aktu notarialnego, taksy sądowej oraz podatku od czynności cywilnoprawnych (jeśli należny) leżą po naszej stronie. Sprzedający nie płaci nic — kwota wskazana w ofercie trafia na konto sprzedającego w pełnej wysokości.</div></div>
+      </div>
+
+      <div class="faq-item reveal">
+        <button class="faq-q" aria-expanded="false">Skup mieszkań Białystok — jak wygląda bezpieczeństwo transakcji?
+          <span class="plus"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span>
+        </button>
+        <div class="faq-a"><div class="faq-a-inner">Trzy konkretne mechanizmy: po pierwsze, cała transakcja odbywa się u notariusza w Białymstoku (publiczny urzędnik państwowy, którego można wybrać samemu). Po drugie, płatność następuje przelewem na konto sprzedającego w dniu podpisania aktu, nigdy gotówką do ręki. Po trzecie, jesteśmy zarejestrowaną firmą — dane (NIP, REGON, KRS) znajdują się w stopce i można nas sprawdzić w rejestrach CEIDG/KRS przed pierwszym spotkaniem.</div></div>
+      </div>
+
+      <div class="faq-item reveal">
+        <button class="faq-q" aria-expanded="false">Czy mieszkanie musi mieć założoną księgę wieczystą?
+          <span class="plus"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span>
+        </button>
+        <div class="faq-a"><div class="faq-a-inner">Nie zawsze. Większość mieszkań w Białymstoku ma księgi wieczyste, ale przy spółdzielczym własnościowym prawie do lokalu lub mieszkaniach z księgą prowadzoną w sposób tradycyjny — także możemy zrealizować transakcję. Sprawdzamy stan prawny przed złożeniem oferty.</div></div>
+      </div>
+
+      <div class="faq-item reveal">
+        <button class="faq-q" aria-expanded="false">Co jeśli nie zaakceptuję oferty — czy są jakieś konsekwencje?
+          <span class="plus"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span>
+        </button>
+        <div class="faq-a"><div class="faq-a-inner">Żadne. Wycena jest niezobowiązująca, możesz odrzucić ofertę bez podawania powodów i bez kosztów. Nie wysyłamy przypomnień, nie naciskamy telefonicznie, nie ściągamy dokumentów do biura. Po prostu zamykamy temat.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== 13 · SEO PODSTRONY ====================== -->
+<section class="section deep">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Specyficzne sytuacje</div>
+      <h2>Sprzedajesz mieszkanie <em>w nietypowej sytuacji?</em></h2>
+      <p>Mamy szczegółowe poradniki dla najczęstszych przypadków.</p>
+    </div>
+
+    <div class="seo-grid">
+      <a href="/skup-mieszkan-z-hipoteka/" class="seo-link reveal">Sprzedaż mieszkania z hipoteką<span class="arr">→</span></a>
+      <a href="/skup-mieszkan-spadkowych/" class="seo-link reveal">Sprzedaż mieszkania spadkowego<span class="arr">→</span></a>
+      <a href="/skup-mieszkan-do-remontu-bialystok/" class="seo-link reveal">Mieszkanie do remontu<span class="arr">→</span></a>
+      <a href="/skup-mieszkan-z-komornikiem/" class="seo-link reveal">Mieszkanie z komornikiem<span class="arr">→</span></a>
+      <a href="/skup-mieszkan-vs-posrednik/" class="seo-link reveal">Porównanie z pośrednikiem<span class="arr">→</span></a>
+      <a href="/jak-sprzedac-mieszkanie-szybko-bialystok/" class="seo-link reveal">Jak sprzedać szybko?<span class="arr">→</span></a>
+      <a href="/skup-mieszkan-bialystok-cennik/" class="seo-link reveal">Ile można dostać?<span class="arr">→</span></a>
+      <a href="#kontakt" class="seo-link reveal">Inna sytuacja — zapytaj<span class="arr">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== 14 · KONTAKT ====================== -->
+<section id="kontakt" class="section">
+  <div class="wrap">
+    <div class="section-head left reveal">
+      <div class="eyebrow">Kontakt</div>
+      <h2><em>Najszybciej</em> telefonicznie. Można też formularzem lub mailem.</h2>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <a href="tel:+48513991210" class="contact-row" style="text-decoration:none;color:inherit;">
+          <div class="icon-disc">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          </div>
+          <div>
+            <div class="lbl">Telefon</div>
+            <span class="val">513 991 210</span>
+            <div class="meta">pon–sob 7:00–18:00 · oddzwaniamy w 24 h</div>
+          </div>
+        </a>
+
+        <div class="contact-row">
+          <div class="icon-disc">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          </div>
+          <div>
+            <div class="lbl">Email</div>
+            <a href="mailto:biuro@DOMENA.pl" class="val">biuro@DOMENA.pl</a>
+            <div class="meta">Odpowiadamy w 24 h roboczych.</div>
+          </div>
+        </div>
+
+        <div class="contact-row">
+          <div class="icon-disc">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          </div>
+          <div>
+            <div class="lbl">Adres</div>
+            <span class="val">ul. Kraszewskiego 30</span>
+            <div class="meta">15-024 Białystok</div>
+          </div>
+        </div>
+
+        <div class="contact-map">
+          <span class="ph-label">Mapa Google · ul. Kraszewskiego 30</span>
+          <div class="pin"></div>
+        </div>
+      </div>
+
+      <div class="card form-card contact-form-card reveal">
+        <h3>Krótka wiadomość</h3>
+        <form class="form-grid" onsubmit="event.preventDefault(); alert('Dziękujemy. Odpiszemy w 24 h.');">
+          <div class="field">
+            <label for="c-name">Imię</label>
+            <input id="c-name" type="text" placeholder="Twoje imię">
+          </div>
+          <div class="field">
+            <label for="c-phone">Telefon</label>
+            <input id="c-phone" type="tel" placeholder="+48 ___ ___ ___">
+          </div>
+          <div class="field full">
+            <label for="c-msg">Wiadomość</label>
+            <textarea id="c-msg" placeholder="O czym chcesz porozmawiać?"></textarea>
+          </div>
+          <div class="consent full">
+            <input id="c-rodo" type="checkbox" required>
+            <label for="c-rodo">Wyrażam zgodę na przetwarzanie danych zgodnie z polityką prywatności.</label>
+          </div>
+          <button type="submit" class="btn-primary-lg full">Wyślij wiadomość</button>
+          <div class="form-note full">Ten formularz jest do ogólnych pytań. Jeśli chcesz otrzymać wycenę mieszkania, użyj formularza powyżej — szerszy zakres pól pozwala podać dokładniejszą wycenę telefoniczną.</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== 15 · STOPKA ====================== -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <span class="logo-mark">S</span>
+          <span>SkupBiałystok</span>
+        </a>
+        <p>Skup mieszkań w Białymstoku. Wycena w 24 godziny, gotówka na koncie w 7 dni.</p>
+      </div>
+      <div>
+        <h4>Nawigacja</h4>
+        <ul>
+          <li><a href="#jak">Jak to działa</a></li>
+          <li><a href="#dla-kogo">Dla kogo</a></li>
+          <li><a href="#transakcje">Transakcje</a></li>
+          <li><a href="#opinie">Opinie</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kontakt</h4>
+        <ul>
+          <li><a href="tel:+48513991210">513 991 210</a></li>
+          <li><a href="mailto:biuro@DOMENA.pl">biuro@DOMENA.pl</a></li>
+          <li>ul. Kraszewskiego 30, Białystok</li>
+          <li>pon–sob 7:00–18:00</li>
+        </ul>
+      </div>
+      <div class="col-company">
+        <h4>Dane firmowe</h4>
+        <ul>
+          <li>[Nazwa firmy]</li>
+          <li>NIP: [XXX-XXX-XX-XX]</li>
+          <li>REGON: [XXXXXXXXX]</li>
+          <li>KRS: [0000XXXXXX]</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 [Nazwa firmy]. Wszystkie prawa zastrzeżone.</div>
+      <div class="legal">
+        <a href="#">Polityka prywatności</a>
+        <a href="#">Regulamin</a>
+        <a href="#">Polityka cookies</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ====================== Sticky mobile bar ====================== -->
+<div class="sticky-mobile">
+  <a href="tel:+48513991210" class="stick-phone">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+    513 991 210
+  </a>
+  <a href="#formularz" class="stick-cta">Otrzymaj wycenę</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
