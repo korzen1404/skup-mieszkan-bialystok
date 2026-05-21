@@ -183,22 +183,27 @@
 
     <div class="form-wrap">
       <div class="form-card reveal">
-        <form class="form-grid" onsubmit="event.preventDefault(); alert('Dziękujemy. Oddzwonimy w 24 h.');">
+        <form class="form-grid" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="7a517cc9-cf91-4024-9792-1453a8ad107b">
+          <input type="hidden" name="subject" value="Nowa wycena — Skup Mieszkań Białystok">
+          <input type="hidden" name="from_name" value="Skup Mieszkań Białystok">
+          <input type="hidden" name="redirect" value="https://web3forms.com/success">
+          <input type="checkbox" name="botcheck" style="display:none">
           <div class="field">
             <label for="f-name">Imię<span class="req">*</span></label>
-            <input id="f-name" type="text" placeholder="Jak się do Ciebie zwracać?" required>
+            <input id="f-name" name="imie" type="text" placeholder="Jak się do Ciebie zwracać?" required>
           </div>
           <div class="field">
             <label for="f-phone">Telefon<span class="req">*</span></label>
-            <input id="f-phone" type="tel" placeholder="+48 ___ ___ ___" required>
+            <input id="f-phone" name="telefon" type="tel" placeholder="+48 ___ ___ ___" required>
           </div>
           <div class="field full">
             <label for="f-loc">Lokalizacja<span class="req">*</span></label>
-            <input id="f-loc" type="text" placeholder="dzielnica lub ulica w Białymstoku" required>
+            <input id="f-loc" name="lokalizacja" type="text" placeholder="dzielnica lub ulica w Białymstoku" required>
           </div>
           <div class="field">
             <label for="f-type">Rodzaj nieruchomości<span class="req">*</span></label>
-            <select id="f-type" required>
+            <select id="f-type" name="rodzaj" required>
               <option>Mieszkanie</option>
               <option>Dom</option>
               <option>Działka</option>
@@ -207,7 +212,7 @@
           </div>
           <div class="field">
             <label for="f-state">Stan nieruchomości<span class="req">*</span></label>
-            <select id="f-state" required>
+            <select id="f-state" name="stan" required>
               <option>Do remontu generalnego</option>
               <option>Wymaga odświeżenia</option>
               <option>Dobry stan</option>
@@ -216,10 +221,10 @@
           </div>
           <div class="field full">
             <label for="f-area">Powierzchnia (m²)</label>
-            <input id="f-area" type="number" placeholder="opcjonalne — np. 48">
+            <input id="f-area" name="powierzchnia" type="number" placeholder="opcjonalne — np. 48">
           </div>
           <div class="consent full">
-            <input id="f-rodo" type="checkbox" required>
+            <input id="f-rodo" name="rodo" type="checkbox" required>
             <label for="f-rodo">Wyrażam zgodę na przetwarzanie moich danych osobowych zgodnie z polityką prywatności w celu przedstawienia wyceny.</label>
           </div>
           <button type="submit" class="btn-primary-lg full">Otrzymaj wycenę w 24 godziny</button>
@@ -810,21 +815,26 @@
 
       <div class="card form-card contact-form-card reveal">
         <h3>Krótka wiadomość</h3>
-        <form class="form-grid" onsubmit="event.preventDefault(); alert('Dziękujemy. Odpiszemy w 24 h.');">
+        <form class="form-grid" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="7a517cc9-cf91-4024-9792-1453a8ad107b">
+          <input type="hidden" name="subject" value="Nowy kontakt — Skup Mieszkań Białystok">
+          <input type="hidden" name="from_name" value="Skup Mieszkań Białystok">
+          <input type="hidden" name="redirect" value="https://web3forms.com/success">
+          <input type="checkbox" name="botcheck" style="display:none">
           <div class="field">
             <label for="c-name">Imię</label>
-            <input id="c-name" type="text" placeholder="Twoje imię">
+            <input id="c-name" name="imie" type="text" placeholder="Twoje imię">
           </div>
           <div class="field">
             <label for="c-phone">Telefon</label>
-            <input id="c-phone" type="tel" placeholder="+48 ___ ___ ___">
+            <input id="c-phone" name="telefon" type="tel" placeholder="+48 ___ ___ ___">
           </div>
           <div class="field full">
             <label for="c-msg">Wiadomość</label>
-            <textarea id="c-msg" placeholder="O czym chcesz porozmawiać?"></textarea>
+            <textarea id="c-msg" name="wiadomosc" placeholder="O czym chcesz porozmawiać?"></textarea>
           </div>
           <div class="consent full">
-            <input id="c-rodo" type="checkbox" required>
+            <input id="c-rodo" name="rodo" type="checkbox" required>
             <label for="c-rodo">Wyrażam zgodę na przetwarzanie danych zgodnie z polityką prywatności.</label>
           </div>
           <button type="submit" class="btn-primary-lg full">Wyślij wiadomość</button>
